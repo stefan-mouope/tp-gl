@@ -1,9 +1,9 @@
-# tp-gl
 
-# Nom du Projet
 
-Une brève description de ce que fait ton projet. Par exemple :  
-> **Nom du projet** est une API RESTful construite avec Node.js, Express, et Sequelize, permettant de gérer des utilisateurs et des produits.
+# OTP-auth
+
+authetification systeme opt by (message or email)
+> **OTP-auth** est une API RESTful construite avec Node.js, Express, et Sequelize, permettant d'authentifier des utilisateur par otp 
 
 ---
 
