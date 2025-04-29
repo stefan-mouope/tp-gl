@@ -1,5 +1,6 @@
 "use strict";
 module.exports = {
+  //short modification for pull request
   async up(queryInterface, sequelize) {
     await queryInterface.createTable("users", {
       id: {
