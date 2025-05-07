@@ -2,36 +2,27 @@
 module.exports = {
   //short modification for pull request
   async up(queryInterface, sequelize) {
-    await queryInterface.createTable("users", {
-      id: {
+    await queryInterface.createTable("vehicule", {
+      resitrationNumber: {
         type: sequelize.interger,
         primaryKey: true,
-        autoIncrement: true,
+
         allowNull: false,
       },
-      username: {
+      make: {
         type: sequelize.STRING,
         allowNull: false,
       },
-      email: {
+      model: {
         type: sequelize.STRING,
         allowNull: false,
       },
-      tel: {
+      year: {
         type: sequelize.interger,
         allowNull: false,
       },
-      otp: {
+      rentalPrice: {
         type: sequelize.interger,
-        allowNull: false,
-      },
-      otpExpiration: {
-        type: sequelize.DATE,
-        allowNull: false,
-      },
-      isVerified: {
-        type: sequelize.BOOLEAN,
-        defaultValue: false,
         allowNull: false,
       },
     });
